@@ -92,7 +92,7 @@ p,ul,ol,table,th,td{
 /*specifity = (0,0,1)*/
 p{
     text-align: center;
-  
+    color: black;
 }
 /*specifity = (0,0,2)*/
 p::first-letter{
@@ -127,6 +127,7 @@ tr:nth-child(even){
 }
 a{
     font-size: 20px;
+    color: black;
 }
 a:link{
     color: blue; 
