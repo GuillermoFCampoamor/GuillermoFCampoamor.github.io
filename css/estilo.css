@@ -27,7 +27,7 @@ header > h1 {
 nav>ul{
     margin: 0;
     padding: 10px;
-    background:rgb(200, 203, 253);
+    
     
 }
 nav>ul li:last-child{
@@ -45,9 +45,7 @@ nav>ul li{
     text-transform: uppercase;
    
 }
-section{
-    background-color: rgb(200, 203, 253);
-}
+
 footer>ul li{
     padding: 10px;
 }
