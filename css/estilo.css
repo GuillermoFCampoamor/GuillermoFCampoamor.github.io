@@ -1,6 +1,6 @@
 /*specifity = (0,0,1)*/
 body{
-    font-size: 10px;
+    font-size: 18px;
     background-color: white;
     color: black;
 }
@@ -84,7 +84,7 @@ h6{
 }
 /*specifity = (0,0,1)*/
 p,ul,ol,table,th,td{
-    font-size: 18px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: white;
