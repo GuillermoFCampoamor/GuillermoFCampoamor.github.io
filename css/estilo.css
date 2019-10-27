@@ -27,7 +27,7 @@ header > h1 {
 nav>ul{
     margin: 0;
     padding: 10px;
-    background: rgb(222, 233, 255);
+    background: rgb(243, 244, 255);
     border: 2px solid rgb(87, 104, 255);
 }
 nav>ul li:last-child{
