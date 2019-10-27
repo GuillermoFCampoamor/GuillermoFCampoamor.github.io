@@ -125,13 +125,16 @@ th {
 tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
+a{
+    font-size: 20px;
+}
 a:link{
-     color: blue; 
+    color: blue; 
 }
 a:visited{ 
     color: purple; 
 }
 a:active{
-     color: red; 
+    color: red; 
 }
 
