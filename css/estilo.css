@@ -56,17 +56,18 @@ header > h1 {
 nav>ul{
     margin: 0;
     padding: 10px; 
+    background-color: rgb(212, 215, 255);
 }
 nav>ul li:last-child{
-    border-left: 2x solid rgb(86, 97, 255);
+    border-left: 2px solid rgb(86, 97, 255);
 }
 nav>ul li:first-child{
-    border-left: 2x solid rgb(86, 97, 255); 
+    border-left: 2px solid rgb(86, 97, 255); 
 }
 nav>ul li{
     padding: 30px;
     margin: 10px;
-    background:white;
+    background:#f6f6f6;
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;  
