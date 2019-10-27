@@ -1,7 +1,7 @@
 /*specifity = (0,0,1)*/
 body{
-    font-size: 10px;
-    background-color:rgb(200, 203, 253);
+    font-size: 18px;
+    background-color:white;
     color: black;
 }
 
@@ -45,7 +45,9 @@ nav>ul li{
     text-transform: uppercase;
    
 }
-
+section{
+    background-color: rgb(200, 203, 253);
+}
 footer>ul li{
     padding: 10px;
 }
@@ -84,7 +86,7 @@ h6{
 }
 /*specifity = (0,0,1)*/
 p,ul,ol,table,th,td{
-    font-size: 20px;
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: rgb(255, 255, 255);
