@@ -57,6 +57,7 @@ nav>ul{
     margin: 0;
     padding: 10px; 
     background-color: rgb(212, 215, 255);
+    border: 2px solid rgb(86, 97, 255);  
 }
 nav>ul li:last-child{
     border-left: 2px solid rgb(86, 97, 255);
