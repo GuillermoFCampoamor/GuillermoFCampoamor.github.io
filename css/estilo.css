@@ -4,10 +4,7 @@ body {
     color: #000000;
     background-color: #f6f6f6;
 }
-h1 {
-    padding: 100px 25px;
-    border-radius: 0px;      
-}
+
 h1,h2,h3,h4,h5{
     background-color:#FF5733; 
     color: #fff;
@@ -15,4 +12,37 @@ h1,h2,h3,h4,h5{
     text-align: center; 
     border-radius: 25px; 
 }
-
+header>h1 {
+    padding: 100px 25px;
+    border-radius: 0px;      
+}
+/*specifity = (0,0,1)*/
+h1{
+    font-stretch: expanded;
+    font-size: 5em;
+}
+/*specifity = (0,0,1)*/
+h2{
+    font-style: italic;
+    font-size: 2.5em;
+}
+/*specifity = (0,0,1)*/
+h3{
+    font-stretch: expanded;
+    font-size: 2em;
+}
+/*specifity = (0,0,1)*/
+h4{
+    font-style: italic;
+    font-size: 1.6em;
+}
+/*specifity = (0,0,1)*/
+h5{
+    font-stretch: expanded;
+    font-size: 1.4em;
+}
+/*specifity = (0,0,1)*/
+h6{
+    font-style: italic;
+    font-size: 1.2em;
+}
