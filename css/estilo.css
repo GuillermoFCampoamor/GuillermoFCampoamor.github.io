@@ -1,6 +1,6 @@
 /*specifity = (0,0,1)*/
 body{
-    font-size: 20px;
+   
     background-color:white;
     color: black;
 }
@@ -84,7 +84,7 @@ h6{
 }
 /*specifity = (0,0,1)*/
 p,ul,ol,table,th,td{
- 
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: rgb(255, 255, 255);
@@ -124,7 +124,9 @@ th {
 tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
-
+a{
+    font-size: 20px;
+}
 a:link{
     color: blue; 
 }
