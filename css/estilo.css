@@ -91,7 +91,6 @@ p,ul,ol,table,th,td{
 /*specifity = (0,0,1)*/
 p{
     text-align: center;
-    text-justify: newspaper;
 }
 /*specifity = (0,0,2)*/
 p::first-letter{
