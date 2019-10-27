@@ -1,0 +1,6 @@
+/*specifity = (0,0,1)*/
+body{
+    background-image: url("../imagenes/personajes/tony.png");
+    background-color: gray;
+    background-repeat: repeat;
+}
