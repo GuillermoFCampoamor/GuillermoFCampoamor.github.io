@@ -127,7 +127,7 @@ a:link{
      color: blue; 
 }
 a:visited{ 
-    color: rgb(53, 0, 53); 
+    color: rgb(0, 0, 0); 
 }
 a:active{
      color: red; 
