@@ -39,8 +39,8 @@ nav>ul li:first-child{
 nav>ul li{
     padding: 30px;
     margin: 10px;
-    background:rgb(255, 255, 255);
-    font-size: 15px;
+    background:white;
+    font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
    
@@ -87,12 +87,13 @@ p,ul,ol,table,th,td{
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 /*specifity = (0,0,1)*/
 p{
     font-size: 22px;
     text-align: center;
+    background-color: white;
 }
 /*specifity = (0,0,2)*/
 p::first-letter{
@@ -125,9 +126,7 @@ th {
 tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
-a{
-    font-size: 22px;
-}
+
 a:link{
     color: blue; 
 }
