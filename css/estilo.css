@@ -40,7 +40,7 @@ nav>ul li{
     padding: 30px;
     margin: 10px;
     background:rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
    
@@ -84,13 +84,14 @@ h6{
 }
 /*specifity = (0,0,1)*/
 p,ul,ol,table,th,td{
-    font-size: 20px;
+    font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: rgb(255, 255, 255);
 }
 /*specifity = (0,0,1)*/
 p{
+    font-size: 22px;
     text-align: center;
 }
 /*specifity = (0,0,2)*/
@@ -124,9 +125,7 @@ th {
 tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
-a{
-    font-size: 20px;
-}
+
 a:link{
     color: blue; 
 }
