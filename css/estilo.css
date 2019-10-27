@@ -86,7 +86,7 @@ h6{
 p,ul,ol,table,th,td{
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    color: black;
 }
 /*specifity = (0,0,1)*/
 p{
