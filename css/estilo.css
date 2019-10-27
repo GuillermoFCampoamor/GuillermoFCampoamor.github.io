@@ -1,7 +1,7 @@
 /*specifity = (0,0,1)*/
 body{
-    font-size: 18px;
-    background-color: white;
+    font-size: 10px;
+    background-color:rgb(200, 203, 253);
     color: black;
 }
 
@@ -27,19 +27,19 @@ header > h1 {
 nav>ul{
     margin: 0;
     padding: 10px;
-    background: white;
+    background:rgb(200, 203, 253);
     
 }
 nav>ul li:last-child{
-    
+    border-left: 2x solid rgb(86, 97, 255);
 }
 nav>ul li:first-child{
-    
+    border-left: 2x solid rgb(86, 97, 255); 
 }
 nav>ul li{
     padding: 30px;
     margin: 10px;
-    background: white;
+    background:rgb(255, 255, 255);
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -87,11 +87,12 @@ p,ul,ol,table,th,td{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 /*specifity = (0,0,1)*/
 p{
     text-align: center;
+  
 }
 /*specifity = (0,0,2)*/
 p::first-letter{
@@ -124,5 +125,13 @@ th {
 tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
-
+a:link{
+     color: blue; 
+}
+a:visited{ 
+    color: purple; 
+}
+a:active{
+     color: red; 
+}
 
