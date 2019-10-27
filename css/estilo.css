@@ -1,6 +1,6 @@
 /*specifity = (0,0,1)*/
 body{
-    font-size: 18px;
+    font-size: 20px;
     background-color:white;
     color: black;
 }
@@ -84,7 +84,7 @@ h6{
 }
 /*specifity = (0,0,1)*/
 p,ul,ol,table,th,td{
-    font-size: 18px;
+ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: rgb(255, 255, 255);
@@ -92,7 +92,6 @@ p,ul,ol,table,th,td{
 /*specifity = (0,0,1)*/
 p{
     text-align: center;
-    color: black;
 }
 /*specifity = (0,0,2)*/
 p::first-letter{
@@ -125,10 +124,7 @@ th {
 tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
-a{
-    font-size: 20px;
-    color: black;
-}
+
 a:link{
     color: blue; 
 }
