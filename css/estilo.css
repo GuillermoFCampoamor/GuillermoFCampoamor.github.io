@@ -124,7 +124,7 @@ tr:nth-child(even){
     background-color:rgb(196, 201, 253);
 }
 a:link{
-     color: blue; 
+     color: rgb(29, 29, 97); 
 }
 a:visited{ 
     color: rgb(0, 0, 0); 
