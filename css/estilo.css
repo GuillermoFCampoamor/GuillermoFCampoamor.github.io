@@ -75,7 +75,7 @@ nav>ul li{
 }
 /*specifity = (0,0,1)*/
 p,ul,ol,table,th,td{
-    font-size: 22px;
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     
